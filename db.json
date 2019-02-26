@@ -7,6 +7,12 @@
     {
       "name": "prod2z",
       "id": 2
+    },
+    {
+      "image": "https://burst.shopifycdn.com/photos/modern-time-pieces_373x@2x.progressive.jpg",
+      "name": "clock",
+      "description": "qqq",
+      "id": 3
     }
   ],
   "users": []
