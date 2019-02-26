@@ -1,6 +1,13 @@
 {
-    "products": [
-        {"name": "prod1", "id": 1}
-    ],
-    "users": []
+  "products": [
+    {
+      "name": "prod1",
+      "id": 1
+    },
+    {
+      "name": "prod2z",
+      "id": 2
+    }
+  ],
+  "users": []
 }
