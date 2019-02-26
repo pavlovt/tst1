@@ -3,6 +3,11 @@ $(document).ready(init);
 
 // initialize the app
 function init() {
+    // by default load the products
+    $('main').html($('#products').html());
+    initProducts();
+
+    // init the menu
     $('nav a').click(function (e) {
         e.preventDefault();
         // const url = $(this).data('url');
@@ -38,7 +43,10 @@ function initProducts() {
 function initForm() {
     $('form').submit((e) => {
         e.preventDefault();
+        // get all form data - it looks like [{name: 'image' value 'http://...'}, {name: 'description', value: '...'}...]
         const frm = $('form').serializeArray();
+
+        // make sure that there are no empty fields
         let isEmpty = true;
         frm.forEach(v => {
             if (_.isEmpty(v.value)) {
