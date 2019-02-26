@@ -1,0 +1,6 @@
+{
+    "products": [
+        {"name": "prod1", "id": 1}
+    ],
+    "users": []
+}
